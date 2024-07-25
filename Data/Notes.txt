@@ -1,0 +1,27 @@
+Crop Type:
+'Pulses':0
+'Commercial':1
+'Cereal':2
+'Fruit/Vegetable':3
+
+Soil types:
+Loamy          3
+Sandy Loam     0
+Sandy          2
+Black          4
+Gravelly       6
+Clayey         5
+Clayey Loam    1
+
+Organic Content/Fertiliser:
+'Low': 1
+'Medium': 2
+'High': 0
+
+Yield_type:
+'Medium' : 2
+'Low' : 1
+'High' : 0
+
+Model : 50% accuracy on crop prediction
+Model : 40% accuracy on yield

@@ -1,0 +1,136 @@
+Soil_type,Temperature(C),Rainfall(cm),Organic_content,Crop_type,Yield_Type
+Gravelly,11.54688613,159.0278811,Medium,Pulses,Medium
+Black,11.11558009,199.7427897,High,Commercial,Medium
+Clayey Loam,19.01721909,164.0701255,High,Cereal,High
+Loamy,20,180,Medium,Fruit/Vegetable,Medium
+Black,11.31800229,183.7138666,Low,Cereal,Medium
+Gravelly,20.34687087,40.89975753,Low,Fruit/Vegetable,Medium
+Loamy,15.84377369,47.80168671,Low,Cereal,High
+Sandy Loam,23,50,Low,Pulses,Low
+Sandy Loam,12.12748987,67.08472136,Medium,Pulses,Medium
+Clayey Loam,25.03945457,236.6071868,Low,Cereal,Low
+Black,19.80444119,32.48290313,High,Fruit/Vegetable,Low
+Loamy,30,180,High,Fruit/Vegetable,High
+Sandy Loam,12.12864028,87.76623811,Medium,Cereal,High
+Sandy,26.56308837,37.38777491,Low,Commercial,Low
+Black,20.31017184,205.4904442,Medium,Cereal,High
+Loamy,22,90,Low,Fruit/Vegetable,Medium
+Gravelly,19.5418321,147.7036891,Low,Cereal,Medium
+Loamy,27.35930988,56.49199954,High,Fruit/Vegetable,High
+Sandy,29.71158664,219.9529422,High,Pulses,Medium
+Clayey,27.86776143,156.9668801,Medium,Fruit/Vegetable,Low
+Loamy,10.9605676,148.8254012,Medium,Commercial,High
+Black,23.19650383,49.49697724,High,Commercial,Medium
+Clayey,21.95819417,35.2366776,Low,Commercial,High
+Sandy Loam,26.15973286,108.3285039,High,Commercial,Low
+Gravelly,16.69989187,170.487344,High,Pulses,High
+Loamy,23.32734666,66.50604981,High,Commercial,Medium
+Sandy,25.64619055,95.98600935,Medium,Commercial,High
+Sandy Loam,14.36710219,209.768333,High,Fruit/Vegetable,High
+Clayey Loam,27.06644936,229.41622,Medium,Fruit/Vegetable,Low
+Sandy Loam,24.0059308,76.86137374,High,Fruit/Vegetable,Low
+Loamy,23.13871236,80.82878348,Medium,Pulses,High
+Sandy,20.93984885,98.60171231,Medium,Commercial,High
+Sandy Loam,30,90,High,Fruit/Vegetable,High
+Black,21.62112876,92.58281632,High,Cereal,Low
+Sandy Loam,23.8900509,192.2804177,High,Fruit/Vegetable,Medium
+Loamy,21.22463371,21.62682188,Medium,Fruit/Vegetable,Medium
+Gravelly,14.34179037,143.061022,Medium,Pulses,High
+Loamy,26.30413358,219.0340476,Low,Pulses,Medium
+Sandy,21.11548868,173.9810942,Medium,Fruit/Vegetable,High
+Loamy,27.35884862,145.9134428,Low,Cereal,Low
+Sandy Loam,29.35360072,107.3195329,Low,Fruit/Vegetable,Low
+Sandy,25.19487306,35.37938507,Low,Cereal,High
+Loamy,30,90,Low,Fruit/Vegetable,Medium
+Black,26.97032395,242.1636561,High,Cereal,High
+Sandy,11.36504965,87.35930629,Medium,Fruit/Vegetable,High
+Sandy,10.66479161,22.55174014,High,Pulses,Low
+Clayey Loam,14.22156241,48.18150302,High,Commercial,Low
+Sandy Loam,22.14702292,45.65560956,Medium,Cereal,Low
+Gravelly,16.31910962,239.8743123,High,Pulses,High
+Black,28,100,High,Commercial,High
+Sandy,24.85758587,160.8946849,High,Pulses,Medium
+Sandy,17,75,Low,Fruit/Vegetable,Medium
+Black,21.02795478,46.35160336,Low,Fruit/Vegetable,High
+Sandy,25,40,Low,Pulses,Low
+Sandy,27.92218576,189.4038555,Medium,Commercial,Low
+Loamy,29,165,High,Cereal,High
+Black,26.90481032,20.72273037,Low,Commercial,High
+Sandy Loam,30,180,High,Fruit/Vegetable,Medium
+Gravelly,13,45,Low,Cereal,Low
+Gravelly,27.59608264,34.03440064,Medium,Pulses,Low
+Sandy Loam,25,45,Medium,Pulses,High
+Loamy,29.82112114,140.1573535,Medium,Fruit/Vegetable,Low
+Sandy Loam,13.25556835,165.7823716,High,Fruit/Vegetable,High
+Loamy,10,55,Low,Cereal,Medium
+Sandy,23,65,Medium,Cereal,Low
+Sandy,10.71132132,165.7379103,High,Pulses,Medium
+Clayey Loam,20.39095328,97.51143123,Low,Commercial,Low
+Loamy,18.03459442,115.0507882,Low,Cereal,Medium
+Sandy Loam,18.83650507,193.7802061,Low,Cereal,Low
+Gravelly,27.79019505,249.6520279,High,Commercial,Medium
+Black,20.13680104,198.9813949,High,Fruit/Vegetable,Low
+Loamy,21.34258198,105.9645991,High,Fruit/Vegetable,Medium
+Loamy,25.40109305,191.4419692,Medium,Pulses,Low
+Clayey,24,110,Low,Cereal,Low
+Gravelly,20,75,High,Fruit/Vegetable,Medium
+Loamy,27,165,Low,Cereal,Low
+Gravelly,10.23602516,23.37690809,High,Cereal,High
+Sandy,23.73208321,234.7642129,Low,Commercial,Low
+Black,17.40801392,61.56938763,Low,Commercial,High
+Black,25,120,Medium,Commercial,Low
+Black,20.65847727,136.9298975,Medium,Fruit/Vegetable,High
+Sandy,21.84624985,114.0851717,High,Fruit/Vegetable,Medium
+Loamy,25.20642697,115.6106417,Low,Fruit/Vegetable,Low
+Gravelly,23.85291293,99.8056311,Low,Fruit/Vegetable,Medium
+Sandy Loam,15.16994335,155.3319553,Medium,Commercial,High
+Sandy,26.50354083,181.6866682,Low,Cereal,High
+Sandy Loam,22.14470956,196.7529538,Medium,Cereal,Low
+Clayey,12.94898635,131.4090725,Medium,Fruit/Vegetable,High
+Clayey Loam,19,65,High,Cereal,High
+Clayey,25,125,Low,Fruit/Vegetable,High
+Gravelly,13.94107581,131.2569346,Medium,Fruit/Vegetable,Medium
+Clayey,24,110,High,Cereal,Low
+Clayey,23.92234549,152.446148,Medium,Commercial,High
+Clayey Loam,17,40,Medium,Pulses,High
+Sandy,14.79104161,160.5369571,Low,Cereal,Low
+Clayey Loam,17,40,Medium,Pulses,High
+Black,28,20,Medium,Commercial,Medium
+Black,27,200,High,Commercial,Medium
+Loamy,21.74119647,131.5850771,Low,Pulses,High
+Clayey Loam,27.30006064,29.95354723,High,Pulses,High
+Sandy,14.8808024,195.6454188,Low,Fruit/Vegetable,Low
+Sandy Loam,28.39106098,104.6897191,High,Commercial,Low
+Sandy Loam,14.02300327,248.5967226,Medium,Fruit/Vegetable,Low
+Sandy Loam,17.56210456,69.9217023,Low,Commercial,Low
+Loamy,15,60,Low,Pulses,Low
+Clayey,10.92893,212.8726422,Medium,Pulses,Low
+Sandy Loam,10.43283239,94.24796549,High,Fruit/Vegetable,Medium
+Loamy,18.91694118,90.15056572,High,Pulses,High
+Gravelly,15.65191036,124.970771,Low,Commercial,Medium
+Loamy,23.8416762,199.4811856,Medium,Cereal,Low
+Clayey Loam,24.56417613,184.912463,Low,Pulses,Low
+Sandy,23,65,Medium,Cereal,Low
+Sandy,27,45,High,Pulses,Medium
+Loamy,23.63694259,147.1573964,Low,Pulses,Low
+Clayey,14.07086126,117.3571767,Medium,Commercial,High
+Sandy Loam,27,130,High,Fruit/Vegetable,Medium
+Clayey,28.89334247,234.5341641,Medium,Fruit/Vegetable,Medium
+Loamy,20.94060313,48.67150506,Medium,Fruit/Vegetable,Low
+Sandy,27,50,Low,Pulses,Low
+Sandy,22.98489219,122.2637502,High,Fruit/Vegetable,Medium
+Loamy,17,55,High,Pulses,Medium
+Clayey,14.88292412,226.6401378,Low,Fruit/Vegetable,Low
+Sandy Loam,17.8372812,239.7010783,High,Cereal,High
+Sandy Loam,18,90,Medium,Fruit/Vegetable,Medium
+Loamy,25,250,Medium,Commercial,Medium
+Black,29.00400142,168.3403421,High,Fruit/Vegetable,High
+Black,29.01515194,81.36354741,Medium,Fruit/Vegetable,High
+Loamy,17.2931506,206.5833101,Medium,Commercial,Low
+Sandy Loam,18.62173094,198.5798049,High,Fruit/Vegetable,Low
+Loamy,10,50,High,Commercial,Medium
+Gravelly,13.50438983,57.0190877,Low,Cereal,Low
+Loamy,22.9957975,200.4668358,Low,Pulses,Medium
+Clayey Loam,11.16197744,29.86840112,High,Cereal,Low
+Clayey,10.00704485,229.184566,High,Fruit/Vegetable,Medium
+Sandy,23.75586174,187.0038853,High,Cereal,Medium
