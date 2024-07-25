@@ -1,7 +1,7 @@
 # Croptimiser
 
 A fully functional smart farming companion designed with the interests of Modern-day farmers in mind.
-
+## Key Highlights ✨
 * Sign in & Sign Up using MongoDB
 * Fully Functional Commenting System with sign in details
 * Two machine learning models to predict various stuff
@@ -10,7 +10,7 @@ A fully functional smart farming companion designed with the interests of Modern
 
 Also, check out Amit Jomy's Github (The Web Designer). [https://github.com/amitjomy007](https://github.com/amitjomy007)
 
-Programs Used:
+## Programs Used:
 
 * For Web Design/Deployment (Done by @Amit Jomy) [https://github.com/amitjomy007](https://github.com/amitjomy007)
 * MongoDB
@@ -20,7 +20,8 @@ Programs Used:
     * Flask
     * Machine Learning Models using Sklearn, deep learning using TensorFlow, Pandas for data, and AI for scraping.
 
-SnapShots 📸
+## SnapShots 📸
+
 •Current Weather & Forecast using OpenWeather API image •Forest Fire Predictor using ML 
 ![image](https://github.com/user-attachments/assets/e39e8bc1-340e-4cfe-b2a7-b6069228eaec)
 •Crop Yield Predictor using ML 
