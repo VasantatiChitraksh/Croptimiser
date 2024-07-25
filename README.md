@@ -1,21 +1,24 @@
 # Croptimiser
+
 A fully functional smart farming companion designed with the interests of Modern-day farmers in mind.
-Key Highlights ✨
-Sign in & Sign Up using MongoDB
-Fully Functional Commenting System with sign in details
-Two machine learning models to predict various stuff
-OpenWeather API to display Live weather
-Articles Page
-Also, check out Amit Jomy's Github (The Web Designer). https://github.com/amitjomy007
+
+* Sign in & Sign Up using MongoDB
+* Fully Functional Commenting System with sign in details
+* Two machine learning models to predict various stuff
+* OpenWeather API to display Live weather
+* Articles Page
+
+Also, check out Amit Jomy's Github (The Web Designer). [https://github.com/amitjomy007](https://github.com/amitjomy007)
 
 Programs Used:
-For Web Design/Deployment:(Done by @Amit Jomy) https://github.com/amitjomy007
-MongoDB
-HTML, CSS, JavaScript
-Open Weather APIs
-For ML/Prediction Models:
-Flask
-Machine Learning Models using Sklearn, deep learning using TensorFlow, Pandas for data, and AI for scraping.
+
+* For Web Design/Deployment (Done by @Amit Jomy) [https://github.com/amitjomy007](https://github.com/amitjomy007)
+* MongoDB
+* HTML, CSS, JavaScript
+* Open Weather APIs
+* For ML/Prediction Models:
+    * Flask
+    * Machine Learning Models using Sklearn, deep learning using TensorFlow, Pandas for data, and AI for scraping.
 
 SnapShots 📸
 •Current Weather & Forecast using OpenWeather API image •Forest Fire Predictor using ML 
