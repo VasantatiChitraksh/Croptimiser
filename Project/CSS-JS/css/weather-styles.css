@@ -1,0 +1,331 @@
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+
+
+
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#header-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-div h1{
+    position: relative;
+    left: -5px;
+    font-weight: 1000;
+    font-size: 200%;
+    
+}
+#logo-txt{
+    margin-left: 2%;
+    display: inline;
+}
+#logo-img{
+    display: inline;
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50px;
+    margin: 15px;
+    margin-right: 30px;
+    transition: 0.3s;
+
+}
+hr{
+    width: 90%;
+}
+#last-hr{
+    margin: 30px;
+}
+footer{
+    width: 90%;
+}
+
+#searchButton{
+    margin-left: 20px;
+    border-radius: 460px;
+    height: 60px;
+    width: 120px;
+    border: 0;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.564);
+    cursor: pointer;
+}
+
+#searchBar  { 
+    padding: 5px;
+    padding-left: 40px;
+    border-radius: 40px;
+    border: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.321);
+    height: 60px;
+    width: 400px;
+}
+
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 30px;
+    
+}
+.line1-left{
+    display: flex;
+    align-items: center;
+}
+
+#city-name{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+    display: inline-block;
+    font-size: 300%;
+    font-weight: 900;
+    margin: 0;
+    min-height: 100px;
+    margin-right: 10px;
+}
+#main-emoji {
+    display: inline-block;
+    font-size: 250%;
+    margin: 0;
+    max-height: 100px;
+
+}
+
+#main-emoji img {
+    width: 200px; 
+    height: auto; 
+}
+
+
+
+.temp{
+    font-style: italic;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 300%;
+    
+}
+#degree-celciusMain {
+    font-style: italic;
+    font-weight: lighter;
+}
+#temp_max{
+    font-style: italic;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 80%;
+    margin:0px;
+    margin-left: 10px;
+
+}
+#temp_min{
+    font-style: italic;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 80%;
+    margin: 0px;
+    
+}
+#min-max{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#line2-left{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+#feels_like{
+
+    font-size: 80%;
+    font-weight: 550;
+    margin-top: 0px;
+}
+#humidity{
+
+    font-size: 80%;
+    font-weight: 550;
+}
+
+.light-font{
+
+    font-size: 80%;
+    font-weight: 550;
+}
+
+.sub-card{
+    display: inline-block;
+    margin: 30px;
+
+}
+#aqi{
+    display: block;
+    margin-bottom: 6px;
+}
+#aqi-container h3{
+    display: inline-block;
+}
+#aqi-container button{
+    display: inline-block;
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: white;
+    border: 0;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    padding-left: 15px ;
+    padding-right: 15px;
+    transition: 0.3s;
+
+}
+#aqi-container button.Good{
+    background-color: rgb(4, 194, 11);
+    color: white;
+    
+}
+#aqi-container button.Average{
+    background-color: orange;
+    color: white;
+    
+}
+#aqi-container button.Bad{
+    background-color: rgb(247, 99, 30);
+    color: white;
+    
+}
+#aqi-container button.Very-Bad{
+    background-color: rgb(167, 0, 0);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+#aqi-container button:hover{
+    scale: 1.1;
+}
+
+#wind-container{
+    margin-top: 10px;
+    display: flex;
+    max-width: 150px;
+    
+}
+.ultra-light{
+    font-size: xx-small;
+    font-weight: 50;
+    font-style: italic;
+}
+
+#wind-container img{
+    max-width: 120px;
+}
+#win-dir{
+    scale: 0.7;
+    transition: 0.3s;
+}
+#wind-container div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#wind-container h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#rise-set-container {
+    display: flex;
+    flex-direction: column;
+}
+#rise-set-container div{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+#rise-set-container img{
+    height: 60px;
+}
+#rise-set-container h3{
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgb(246, 211, 166);
+    transition: 0.3s;
+}
+.forecast-top {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-bottom: 0px; 
+}
+
+
+.forecast-temp{
+    margin: 0;
+    margin-right: 20px;
+}
+
+#forecast-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*box-shadow: 2px 2px 0px; */
+    border-radius: 5px;
+    
+}
+
+.forecast-date{
+    font-size: small;
+    margin-top: 0px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.forecast:hover{
+    scale: 1.1;
+}
+
+.transition {
+
+    transition: ease 0.3s;
+}
+.transition:hover{
+    scale: 1.1;
+}
+.clicK:active{
+    scale : 0.9;
+}
+#win-dir:hover{
+    scale :0.8;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/crop.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Croptimizer</h1>
+        </div>
+        <div>
+            <ul>
+                <a href="/home">Home</a>
+                <a href="/donate">Donate</a>
+                {% if userName %}
+                <a href="/logout"><p id="signed-in-as">Logout</p><h2 id="user-name-top-bar">{{userName}}</h2></a>
+                {% else %}
+                <a href="/sign-in-page">Sign In</a>
+                <a href="/sign-up-page">Sign Up</a>
+                {% endif %}
+            </ul>
+            <img id="logo-img" src="../static/images/logo.jpeg" alt="">
+        </div>
+    </header>
+    <div id="main">
+        <div class="center"><h1>Crop & Yield Predictor</h1></div>
+        
+        <form action="/crop-predict" method="POST">
+            <div id="first">
+                <div class="sub">
+                    <label for="soil-type">Soil-type</label>
+                    <select name="soil-type" id="soil-type">
+                        <!-- <option value="" disabled selected>Soil Type</option> -->
+                        
+                        <option value="Loamy">Loamy</option>
+                        <option value="Sandy Loam">Sandy Loam</option>
+                        <option value="Sandy">Sandy</option>
+                        <option value="Black">Black</option>
+                        <option value="Gravelly">Gravelly</option>
+                        <option value="Clayey">Clayey</option>
+                        <option value="Clayey Loam">Clayey Loam</option>
+                    </select>
+                </div>
+                <div class="sub">
+                    <label for="temperature">Temperature</label>
+                    <input type="text" name="temperature" id="temperature">
+                </div>
+                <div class="sub">
+                    <label for="rainfall">Rainfall</label>
+                    <input type="text" name="rainfall" id="rainfall">
+                </div>
+                <div class="sub">
+                    <label for="organic-content">Organic Content</label>
+                    <select name="organic-content" id="organic-content">
+                        <!-- <option value="" disabled selected>Organic Content</option> -->
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
+                </div>
+            </div>
+            <div id="lower">
+                <button id="pred-button" type="submit">PREDICT</button>
+                <div class="center">
+                </form>
+                <p>Yield:  {{output}}</p>
+                <p>SVC:  {{out2}}</p>
+                </div>  
+
+                <div class="center">
+                <p>{{out3}}</p>
+                </div>
+            </div>
+
+
+    </div>
+</body>
+</html>

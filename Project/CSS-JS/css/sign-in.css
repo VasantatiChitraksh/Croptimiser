@@ -1,0 +1,116 @@
+body{
+
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(161, 0, 0);
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+}
+#logo-img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+header a{
+    font-size: 120%;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+    text-decoration: none;
+    padding: 0px 40px;
+
+ 
+}
+header a:hover{
+    background-color: black;
+}
+header button{
+    margin:10px
+}
+
+
+#sign-in-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 180, 88);
+}
+#sign-in-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    width: 25%;
+    padding: 5%;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.299);
+}
+#sign-in-card input{
+    display: block;
+    padding: 3%;
+
+    background-color: bisque;
+
+    border-radius: 5px;
+}
+#sign-in-card form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.center{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.center button{
+    width: 40%;
+    background-color: rgb(61, 168, 255);
+    border: 0;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 8%;
+}
+#sign-in-card label{
+    width: 100%;
+    font-size: 150%;
+    font-weight: 750;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+#sign-in-card input{
+    margin-bottom: 5%;
+}
+.msg p{
+    font-size: 70%;
+    color: rgb(255, 0, 0);
+    margin: 0;
+    margin-bottom: 1%;
+}

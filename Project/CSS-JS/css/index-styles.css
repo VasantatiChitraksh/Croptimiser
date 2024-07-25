@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(161, 0, 0);
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+}
+#logo-img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+header a{
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+    text-decoration: none;
+    padding: 0px 40px;
+
+ 
+}
+header a:hover{
+    background-color: black;
+}
+header button{
+    margin:10px
+}
+#signed-in-as{
+    font-size: xx-small;
+    font-weight: light;
+    display: block;
+    
+    margin: 0;
+}
+#user-name-top-bar{
+    margin: 0;
+    
+    font-size: smaller;
+    font-weight: bold;
+    display: block;
+    font-size: 50px;
+}
+img{
+    height: 100%;
+    color: blanchedalmond;
+
+}
+
+.featuresdiv {
+    background-image: url('https://media.istockphoto.com/id/508908231/photo/golden-wheat-field-and-sunny-day.jpg?s=612x612&w=0&k=20&c=j4Z9w1YGFJakiCPmi7tAfcY3vc7yapZMJIpv1qv8vgI=');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+    padding-bottom:7%;
+    background-color:beige;
+}
+.featuresdiv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.241); /*dark bg img*/
+    z-index: 1;
+}
+
+
+/* Deprecated from v(2) replaced with hommecard p and h3*/
+/*
+.featuresdiv a{
+    display: inline-flex;
+
+    justify-content: center;  align text center 
+    align-items: center;     align text verti
+    padding-right: 100px;
+    
+    width : 250px;
+    height: 250px;
+
+    margin-right: 15%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;  remove underline
+    background-color: rgb(255, 145, 0);
+    border-radius: 30px;
+   
+}*/
+
+#home-card{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 128, 128, 0.27);
+    color:white;
+    box-shadow: 0 0 10px black;
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-bottom: 60px; 
+
+    
+}
+
+#home-card:hover{
+    box-shadow: 0 0 25px rgb(0, 255, 221);
+    background-color: rgba(0, 128, 128, 0.831);
+    /* transform: translate(50px, 100px);  Good */
+    transform: scale(1.1);
+      
+}
+#home-card:hover .go-there{
+    background-color: rgb(161, 0, 0);
+    transition: 0.7s;
+}
+#home-card img{
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 0;
+}
+
+#home-card p{
+    width: 95%;
+    padding-left: 12px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+#home-card h3{
+    padding-left: 6px;
+    margin: 0px;
+    margin-top: 3px;
+    width: 95%;
+}
+/* home-card a doesn't exist anymore */
+#home-card a{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#home-card form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.go-there {
+    width: 80%; 
+    height: 50px; 
+    font-size: 16px; 
+    background-color: #559600; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    
+}
+#article-container{
+    background-color: rgb(249, 184, 105);
+    padding-bottom: 100px;
+}
+#article-container h4 ,h2, h1{
+    margin: 0;
+}
+
+#article-container h1{
+    font-size: 400%;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+hr {         /*line css*/
+    width: 30%;
+    
+    border: none; 
+    height: 25px; 
+    background-color: #a00000; 
+    margin: 20px 0; 
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+}
+.article{
+    margin: 2%;
+    margin-left: 0%;
+    margin-bottom: 0;
+    width: 80%;
+    padding: 50px 100px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+.article h2{
+    margin-bottom: 18px;
+}
+footer{
+    padding: 70px 20px;
+    padding-bottom: 100px;
+    background-color: rgb(250, 154, 35);
+    height: 100%;
+}
+footer p{
+    margin: 0px;
+    margin-left: 30px;
+}
+footer ul{
+    margin: 0px;
+    margin-left: 30px;
+}
+

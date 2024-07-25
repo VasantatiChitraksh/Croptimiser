@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/articles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Croptimizer</h1>
+        </div>
+        <div>
+            <ul>
+                <a href="/home">Home</a>
+                <a href="/donate">Donate</a>
+                {% if userName %}
+                <a href="/logout"><p id="signed-in-as">Logout</p><p id="user-name-top-bar">{{userName}}</p></a>
+                {% else %}
+                <a href="/sign-in-page">Sign In</a>
+                <a href="/sign-up-page">Sign Up</a>
+                {% endif %}
+
+            </ul>
+            <img id="logo-img" src="../static/images/logo.jpeg" alt="">
+        </div>
+    </header>
+
+    <div id="article-content">
+        <h1>
+            {{output['title']}}
+        </h1>
+        <h10>Author Name > Date & or Time</h5>
+        <p>{{output['content']}}</p>
+    </div>
+    <hr>
+    <h1 style="padding-left: 5%;">Comments</h1>
+    <div id="compose-comment-container">
+        <div id="compose-comment">
+            <h2>Compose a New Comment</h2>
+            <form action="/post-comment" method="POST">
+                {% if userName %}
+                <h1>Comment as {{userName}}</h1>
+                {% else %}
+                <h1>Login</h1>
+                {% endif %}
+                <textarea name="comment" rows="4" cols="50"></textarea>
+                <p>{{msg}}</p>
+                <button>Comment</button>
+            </form>
+        </div>
+    </div >
+    <hr>
+    <div>
+        {{commentcontainer|safe }}
+    </div>
+    
+    <footer>
+        <p>Copyright creator</p>
+    </footer>
+</body>
+</html>

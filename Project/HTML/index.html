@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cropMaxizer</title>
+    <link rel="stylesheet" href="../static/css/index-styles.css">
+</head>
+<body>
+    <title>Name of Proj</title>
+
+    <header>
+        <div>
+            <h1>Croptimizer</h1>
+        </div>
+        <div>
+            <ul>
+                <a href="/home">Home</a>
+                <a href="/donate">Donate</a>
+                {% if userName %}
+                <a href="/logout"><p id="signed-in-as">Logout</p><h2 id="user-name-top-bar">{{userName}}</h2></a>
+                {% else %}
+                <a href="/sign-in-page">Sign In</a>
+                <a href="/sign-up-page">Sign Up</a>
+                {% endif %}
+
+            </ul>
+            <img id="logo-img" src="../static/images/logo.jpeg" alt="">
+        </div>
+    </header>
+
+
+
+
+    <div class="featuresdiv">
+        
+        <span id="home-card">
+            <img src="https://t4.ftcdn.net/jpg/06/41/91/85/360_F_641918542_bL3O5qWqKmaVrxM12Qa1pp1owFvKKP3k.jpg" alt="">
+            <h3>Weather & Forecast</h3>
+            <p> This feature allows you to look at the live weather forecast in your area and notifies about rainfall. </p>
+            <form action="/weather" method = "POST">
+                <button type="submit" class="go-there">Go There</button>
+            </form>
+
+        </span>
+        <span id="home-card">
+            <img src="https://insideclimatenews.org/wp-content/uploads/2023/03/wildfire_thibaud-mortiz-afp-getty-scaled.jpg" alt="">
+            <h3>Forest Fire Prediction</h3>
+            <p>Forest fires are a great natural calamity, if your farm or estate is close to a forest use this predictor to see the chance of a fire nearby. </p>
+
+            <form action="/forestfire" method = "POST">
+                <button type="submit" class="go-there">Go There</button>
+            </form>
+
+
+
+        </span>
+        <span id="home-card">
+            <img src="https://cdn.siasat.com/wp-content/uploads/2024/06/farmer-ploughs-a-field-to-plant-paddy-saplings-.jpg" alt="">
+            <h3>Crop-Predictor</h3>
+            <p>A simple and effective tool to identify the best crop type for your farm </p>
+            <form action="/crop-yield" >
+                <button type="submit" class="go-there">Go There</button>
+            </form>
+        </span>
+    </div>
+    <div id="article-container">
+        <h1>Articles</h1>
+        <hr>
+        <div class="article">
+            <h2>
+                Drones: Your Farm's New Best Friend
+            </h2>
+            <h4>
+                Drones, those flying marvels of technology, are revolutionizing agriculture. Imagine
+                having a bird's eye view of your fields, detecting problems before they escalate.
+                That's the power of drones in farming. Equipped with high-resolution cameras and
+                sensors, drones can capture detailed images and data about crops, soil, and even
+                livestock....Read More.
+            </h4>
+            <form action="/read-article" method="POST">
+                <button class="article-button" type="submit" name = "art-id" value="0">Read More</button>
+            </form>
+
+           
+        </div>
+        <div class="article">
+            <h2>
+                Precision Agriculture: Farming Smarter, Not Harder
+            </h2>
+            <h4>
+                Precision agriculture is a revolutionary approach to farming that involves collecting
+                and analyzing data about soil, climate, and crops to make informed decisions. It's
+                like giving your farm a personalized treatment plan. By harnessing technology like
+                GPS, drones, and sensors, farmers can create detailed maps of their fields,
+                identifying variations in soil composition, topography, and crop health.
+            </h4>
+            <form action="/read-article" method="POST">
+                <button class="article-button" type="submit" name = "art-id" value="1">Read More</button>
+            </form>
+           
+        </div>
+        <div class="article">
+            <h2>
+                Crop Monitoring and Disease Detection
+            </h2>
+            <h4>
+                Crop monitoring and disease detection is a critical aspect of modern agriculture. By
+                using smart farming technologies, farmers can monitor their crops for signs of stress,
+                disease, and pest infestations. This allows farmers to take action early, preventing
+                crop losses and reducing the need for chemical inputs
+            </h4>
+            <form action="/read-article" method="POST">
+                <button class="article-button" type="submit" name = "art-id" value="2">Read More</button>
+            </form>
+            
+           
+        </div>
+        <div class="article">
+            <h2>
+                Soil Health and Smart Farming
+            </h2>
+            <h4>
+                Soil is the foundation of agriculture, and healthy soil is essential for sustainable crop
+                production. Smart farming technologies can help farmers improve soil health and
+                increase crop yields. By using sensors and data analysis, farmers can monitor soil
+                moisture, nutrient levels, and organic matter content. This information can be used to
+                make informed decisions about irrigation, fertilization, and crop rotation.
+            </h4>
+            <form action="/read-article" method="POST">
+                <button class="article-button" type="submit" name = "art-id" value="3">Read More</button>
+            </form>
+           
+        </div>
+        <div class="article">
+            <h2>
+                Water Management and Irrigation
+            </h2>
+            <h4>
+                Water is a precious resource, especially in agriculture. With the increasing scarcity of
+                water, it is essential for farmers to manage their water resources efficiently. Smart
+                farming technologies can help farmers conserve water and improve irrigation
+                efficiency. By using sensors and data analysis, farmers can monitor soil moisture,
+                weather conditions, and crop water needs. This information can be used to schedule
+                irrigation events and apply the right amount of water to each crop.
+            </h4>
+            <form action="/read-article" method="POST">
+                <button class="article-button" type="submit" name = "art-id" value="4">Read More</button>
+            </form>
+           
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Copyright creator. All rights reserved</p>
+        <ul>
+            <li><a href="insta.com">Instagram</a></li>
+            <li><a href="youtube.com">youtube</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>

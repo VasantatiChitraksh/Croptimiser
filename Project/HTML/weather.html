@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather</title>
+    <link rel="stylesheet" href="../static/css/weather-styles.css">
+    <meta name = "title" content = "weatherNSS">
+    <meta name = "description" content = "weather forecast using openweather api nss">
+
+</head>
+<body>
+    <div id="header-div">
+        <h2 id="logo-txt">Croptimizer</h2>
+        <h1>Weather</h1>
+        <img src="../static/images/logo.jpeg" alt="logoimg" id="logo-img">
+    </div>
+    
+
+    <div id="searchdiv">
+        <input class= "transition" type="text" placeholder = "EnterCity" id = "searchBar">
+        <button class= "transition clicK" id = "searchButton">Search</button>
+        <h3 id="instruction">Enter City name to display weather...!</h3>
+    </div>
+
+
+    <div class ="weather">
+
+            <div class="sub-card">
+
+                <div class="line1-left">
+                    <h2 id="city-name">City Name </h2>
+                    <span id="main-emoji">☀️</span>
+                </div>
+
+                <div id="line2-left">
+                    <h3 class = "temp" id="temp">25 </h3>
+                    <h3 id="degree-celciusMain">°C</h3>
+                    <div id="min-max">
+                        <h3 id = "temp_max">20 °C</h3>
+                        <h3 id = "temp_min"> | 32 °C<h3> 
+                    </div>
+                </div>
+
+
+                <hr class="line">
+
+                
+                <h3 id="description">sunny </h3>
+                <h3 id = "feels_like">Feels like: </h3>
+                <h3 class="light-font" id = "humidity">Humidity: </h3>
+            </div>
+
+        <div class="sub-card">
+            <div id="aqi-container">
+                <h4 id="aqi">Air Quality Index </h4>
+                <span  id="aqi-button">
+                    <button class="very-good">Very Good</button>
+                </span>
+                
+                <h3 id="aqi-advise" class="light-font ultra-light"> . Safe to go out</h3>
+            </div>
+            <hr class="line">
+
+            <div id="wind-container">
+                <div>
+                    <img class="transition" src="../static/images/wind.png" alt="">
+                    <h3 class="light-font" id="speed">  km/h </h3>
+                    <h3 class="ultra-light">wind-speed</h3>
+                </div>
+
+                
+                <div>
+                    <img class="transition" id='win-dir' src="../static/images/direction.png" alt="">
+                    <h3 class="light-font" id="deg">North </h3>
+                    <h3 class="ultra-light" >wind-direction</h3>
+                </div>
+
+                
+            </div>
+            <hr class="line">
+
+            <div id="rise-set-container">
+                <div>
+                    <img class="transition" src="../static/images/sunrise.png" alt="">
+                    <h3 class="light-font" id="sunrise">Sunrise: 🌅 </h3>
+                </div>
+                <div>
+                    <img class="transition" src="../static/images/sunset.png" alt="">
+                    <h3 class="light-font" id="sunset">Sunset: 🌇 </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-card">
+            <h3 class="light-font" id = "pressure">Pressure: </h3>
+            <h3 class="light-font" id = "sea_level">Sea Level: </h3>
+            <h3  class="light-font"class="light-font" id="grnd_level">Ground Level: </h3>
+        </div>
+
+    </div>
+    
+
+
+
+    <div id="forecast-container">
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionThreeF">☀️</h3>
+                <h3 class="forecast-temp" id="tempThreeF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeThreeF">Date&Time</h3>
+        </div>
+        
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionSixF">☀️</h3>
+                <h3 class="forecast-temp" id="tempSixF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeSixF">Date&Time</h3>
+        </div>
+        
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionNineF">☀️</h3>
+                <h3 class="forecast-temp" id="tempNineF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeNineF">Date&Time</h3>
+        </div>
+        
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionTwelveF">☀️</h3>
+                <h3 class="forecast-temp" id="tempTwelveF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeTwelveF">Date&Time</h3>
+        </div>
+        
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionFifteenF">☀️</h3>
+                <h3 class="forecast-temp" id="tempFifteenF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeFifteenF">Date&Time</h3>
+        </div>
+        
+        <div class="forecast">
+            <div class="forecast-top">
+                <h3 class="forecast-temp" id="descriptionEighteenF">☀️</h3>
+                <h3 class="forecast-temp" id="tempEighteenF">°C</h3>
+            </div>
+            <h3 class="forecast-date" id="date-timeEighteenF">Date&Time</h3>
+        </div>
+    </div>
+    <hr class="line" id="last-hr">
+    <footer>
+        <p>&copy; Copyright creator. All rights reserved</p>
+        <ul>
+            <li><a href="insta.com">Instagram</a></li>
+            <li><a href="youtube.com">youtube</a></li>
+        </ul>
+    </footer>
+    
+    <script src="../static/js/script-weather.js"></script>
+</body>
+</html>

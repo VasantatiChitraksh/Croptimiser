@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/sign-in.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Croptimizer</h1>
+        </div>
+        <div>
+            <ul>
+                <a href="/donate">Donate</a>
+                <a href="/home">Home</a>
+                <a href="/sign-in-page">Sign In</a>
+                <a href="/sign-up-page">Sign Up</a>
+
+            </ul>
+            <img id="logo-img" src="../static/images/logo.jpeg" alt="">
+        </div>
+    </header>
+    <div id="sign-in-container">
+        <div id = "sign-in-card">
+            <form action="/sign-in" method="POST">
+                <label for="user-name">Enter your username</label>
+                <div class="msg"><p>{{userNameMsg}}</p></div>
+                <input type="text" placeholder="Donald Trump" name="user-name" >
+                <label for="pass-word">Enter your Password</label>
+                <div class="msg"><p>{{pwdMsg}}</p></div>
+                <input type="password" placeholder="•••••••" name="password">
+                <div class="center">
+                    <button type="submit">Sign-In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

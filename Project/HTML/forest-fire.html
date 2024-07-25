@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 9.0">
+    <title>cropMaxizer</title>
+    <link rel="stylesheet" href="../static/css/forest-fire.css">
+</head>
+<body>
+    <header>
+        <h3>Croptimizer</h3>
+
+        <img src="../static/images/logo.jpeg" alt="" id="logo-img">
+    </header>
+    <div id="center">
+
+        <h1>Forest Fire Predictor</h1>
+       
+        <h4>Predicting the probability of a forest fire </h4>
+        <hr>
+        <form action="/submit" method="POST" id="form">
+            <div id="line-1">
+
+                <div class="option-container">
+                    <div>
+                        <label for="">Temperature(C)</label>
+                    </div>
+                    <input type="text" name="temperature" placeholder="Temperature" value="{{temperature}}">
+                </div>
+
+                <div class="option-container">
+                    <div>
+                        <label for="">Humidity</label>
+                    </div>
+                    <input type="text" placeholder="Humidity" name="humidity" value="{{humidity}}">
+                </div>
+                <div class="option-container">
+                    <div>
+                        <label for="">Oxygen</label>
+                    </div>
+                    <input type="text" placeholder="Oxygen" name="oxygen" value="{{oxygen}}">
+                </div>
+
+
+            </div>
+            <div id="line-2">
+                <button id="submit" type="submit">PREDICT</button>
+                <h4 id="did-you-know">"Did you know the Amazon Rainforest, the world's largest tropical forest, is home to 10% of all known species? It’s a vibrant treasure trove of life that helps regulate our global climate!"</h4>
+            </form>
+            </div>
+
+    </div>
+
+    {% if show_popup %}
+    <div id="popup" class="show">
+        <span class="close" onclick="document.getElementById('popup').style.display='none'">×</span>
+        <div class="content">
+            <p>{{put}}</p>
+            <p>Prediction: {{ output }}</p>
+            <p>Temperature: {{ temperature }}</p>
+            <p>Humidity: {{ humidity }}</p>
+            <p>Oxygen: {{ oxygen }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+
+    <footer>
+        <hr class="line" id="last-hr">
+        <p>&copy; Copyright creator. All rights reserved</p>
+        <ul>
+            <li><a href="insta.com">Instagram</a></li>
+            <li><a href="youtube.com">youtube</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
